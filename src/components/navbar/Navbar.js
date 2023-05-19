@@ -44,14 +44,6 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img
-            src={themename === "light" ? logoDark : logoLight}
-            className="img-fluid logo"
-            alt="brand"
-            style={{width: "48", height: "40"}}
-          />
-        </Navbar.Brand>
 
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -106,7 +98,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://blog.rahuljha.tech/"
+                href="https://kushagra0511.hashnode.dev/"
                 target="_blank"
                 rel="noreferrer"
               >

@@ -2,6 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeIcon from "../../Assets/homeicons.svg";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
+import Lottie from "lottie-react";
+import homeIcon2 from "../../Assets/96428-portfolio.json";
+
 
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -23,7 +26,7 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                <strong className="main-name"> Rahul Jha</strong>
+                <strong className="main-name"> Kushagra Varshney</strong>
               </h1>
 
               <div style={{ padding: 30 }} className="type">
@@ -32,12 +35,7 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeIcon}
-                alt="home pic"
-                className="img-fluid"
-                style={{ paddingTop: 50 }}
-              />
+            <Lottie loop={true} animationData={homeIcon2} />
             </Col>
           </Row>
         </Container>

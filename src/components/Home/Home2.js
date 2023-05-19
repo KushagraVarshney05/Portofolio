@@ -35,11 +35,11 @@ function Home2() {
                 <i className="primary-header">Web Technologies and Products.</i>
               </i>
               <br />
-              <br />I always apply my experience in developing products with{" "}
+              {/* <br />I always apply my experience in developing products with{" "}
               <i className="primary-header">Node.js</i> and Modern Javascript
               Library and Framework like
               <i className="primary-header"> React.js.</i>
-              <br />
+              <br /> */}
               <br />
               Currently expanding my portfolio by building more{" "}
               <i className="primary-header">projects </i>projects that I can add
