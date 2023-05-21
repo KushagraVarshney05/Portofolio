@@ -25,20 +25,22 @@ function Techstack() {
         <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
@@ -47,7 +49,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMaterialui />
-      </Col>
+      </Col> */}
     </Row>
   );
 }

@@ -5,6 +5,12 @@
   transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
   display: inline-block;
 }
+#kushagra
+{
+  margin-top: 0% !important;
+  margin-bottom: 0% !important;
+  padding-top: 0% !important;
+}
 
 @keyframes wave-animation {
   0% {
@@ -49,6 +55,8 @@
   padding: 9rem 2rem !important;
   color: var(--clr-txt);
   text-align: left;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .heading {
