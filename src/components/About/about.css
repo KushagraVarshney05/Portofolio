@@ -1,6 +1,6 @@
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 5% !important;
   padding-bottom: 30px !important;
   background-color: var(--clr-bg) !important;
 }
@@ -35,6 +35,13 @@
   display: flex;
   justify-content: center;
 }
+@media (max-width: 991px) {
+  .about-section {
+    padding-top: 10% !important;
+  
+  }
+}
+  
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
@@ -46,7 +53,7 @@
   overflow: hidden !important;
 }
 .tech-icon-images {
-  padding: 200px !important;
+  padding: 20px !important;
   line-height: 1.6 !important;
 }
 .primary-header {

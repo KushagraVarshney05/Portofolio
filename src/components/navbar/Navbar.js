@@ -61,7 +61,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link 
               as={Link} 
-              to="/home" 
+              to="/" 
               onClick={() => updateExpanded(false)}
               >
                 Home

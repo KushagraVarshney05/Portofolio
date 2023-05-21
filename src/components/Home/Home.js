@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import Lottie from "lottie-react";
-import homeIcon2 from "../../Assets/96428-portfolio.json";
+import homeIcon2 from "../../Assets/113805-portfolio-welcome.json";
 import About from "../About/About";
 import {
   AiFillGithub,
@@ -41,11 +41,11 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-            {/* <Lottie loop={true} animationData={homeIcon2} /> */}
+            <Col md={5} style={{ paddingBottom: 0  }} className="home-lottie">
+            <Lottie loop={true} animationData={homeIcon2} />
             </Col>
           </Row>
-          
+          {/*  */}
         </Container>
       </Container>
       <About />

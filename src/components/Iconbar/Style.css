@@ -1,4 +1,4 @@
-.icon-bar {
+.icon-bar2 {
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
@@ -6,7 +6,7 @@
   }
   /* section 7 */
   
-  .icon-bar a {
+  .icon-bar2 a {
     width: 15rem;
     background: #3b5999;
     color: #fff;
@@ -19,19 +19,19 @@
     transform: translateX(-12rem);
   }
   
-  .icon-bar a:hover {
+  .icon-bar2 a:hover {
     transform: translateX(0);
   }
   
-  .icon-bar a .fab {
+  .icon-bar2 a .fab {
     padding-left: 1rem;
     font-size: 2rem;
     animation: letszoom 3s linear alternate-reverse infinite;
   }
-  .telegram-images {
+  .icon-bar2-images {
     padding-left: 1rem !important;
     font-size: 2rem !important;
-    animation: letszoom 3s linear alternate-reverse infinite !important;
+    animation: letszoom 3s linear alternate-reverse infinite;
   }
   
   @keyframes letszoom {
@@ -43,23 +43,23 @@
     }
   }
   
-  .icon-bar .twitter {
+  .icon-bar2 .twitter2 {
     background: #00aced;
   }
   
-  .icon-bar .instagram {
+  .icon-bar2 .instagram2 {
     background: #e4405f;
   }
   
-  .icon-bar .youtube {
+  .icon-bar2 .youtube2 {
     background: #cd201f;
   }
   
-  .icon-bar .linkedin {
+  .icon-bar2 .linkedin2 {
     background: #0077b5;
   }
   @media screen and (max-width: 500px) {
-  .icon-bar a {
+  .icon-bar2 a {
     width: 11rem;
     background: #3b5999;
     color: #fff;
@@ -71,9 +71,14 @@
     transition: all 0.5s linear;
     transform: translateX(-8.7rem);
   }
-  .icon-bar a .fab {
+  .icon-bar2 a .fab {
     padding-left: 1rem;
     font-size: 1.5rem;
     animation: letszoom 3s linear alternate-reverse infinite;
   }
+  .icon-bar2 a:hover {
+    transform: translateX(-8.7rem);
+  }
+  
+
 }
