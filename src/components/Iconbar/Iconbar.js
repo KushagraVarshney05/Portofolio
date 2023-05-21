@@ -1,6 +1,6 @@
 import React from "react";
 import "./Style.css";
-
+import { Icon } from '@iconify/react';
 export const Iconbar2 = () => {
   return (
     
@@ -10,7 +10,7 @@ export const Iconbar2 = () => {
         </a> */}
 
         <a
-          href="https://twitter.com/sbscmunsociety?t=ZYUJMljl9mTMyjdGZ7ZD0w&s=09"
+          href="https://twitter.com/Kushagra_var"
           className="telegram2"
           target="_kushagra"
         >
@@ -18,7 +18,7 @@ export const Iconbar2 = () => {
         </a>
 
         <a
-          href="https://instagram.com/munsoc_sbsc?igshid=YmMyMTA2M2Y="
+          href="https://www.instagram.com/varshneykushagra/"
           className="instagram2"
           target="_kushagra"
         >
@@ -26,7 +26,7 @@ export const Iconbar2 = () => {
         </a>
 
         <a
-          href="https://www.linkedin.com/company/the-sbsc-mun-society/"
+          href="https://www.linkedin.com/in/kushagra-varshney0511/"
           className="linkedin2"
           target="_kushagra"
         >
@@ -34,11 +34,18 @@ export const Iconbar2 = () => {
         </a>
 
         <a
-          href="https://youtube.com/@sbscmun?feature=shares"
-          className="youtube2"
+          href="https://github.com/KushagraVarshney05"
+          className="github2"
           target="_kushagra"
         >
-          click here to visit <i className="fab fa-youtube-square"></i>
+          click here to visit <i className="fab fa-github"></i>
+        </a>
+        <a
+          href="https://leetcode.com/KushagraVarshney0511/"
+          className="leetcode2"
+          target="_kushagra"
+        >
+          click here to visit <Icon className="icon3" icon="simple-icons:leetcode" />
         </a>
       </div>
     

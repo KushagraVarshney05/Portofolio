@@ -4,6 +4,7 @@ import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import Lottie from "lottie-react";
 import homeIcon2 from "../../Assets/113805-portfolio-welcome.json";
 import About from "../About/About";
+import { Icon } from '@iconify/react';
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -59,7 +60,7 @@ function Home() {
             <ul className="home-about-social-links" data-aos="fade-up">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Rahuljha4171"
+                  href="https://github.com/KushagraVarshney05"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -70,7 +71,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Rahuljha4171"
+                  href="https://twitter.com/Kushagra_var"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -81,7 +82,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:rahuljha4171@outlook.com"
+                  href="mailto:kushagravarshney0511@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -92,7 +93,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/Rahuljha4171/"
+                  href="https://www.linkedin.com/in/kushagra-varshney0511/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -103,13 +104,24 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/dead.programmer/"
+                  href="https://www.instagram.com/varshneykushagra/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                   aria-label="instagram"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://leetcode.com/KushagraVarshney0511/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                  aria-label="instagram"
+                >
+                  <Icon icon="simple-icons:leetcode" />
                 </a>
               </li>
             </ul>
