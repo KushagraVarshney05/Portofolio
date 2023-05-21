@@ -26,7 +26,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={6} lg={4} className="project-card">
+          {/* <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={Portfolio}
               title="Portfolio Website"
@@ -34,7 +34,7 @@ function Projects() {
               ghLink="https://github.com/rahuljha4171/Portfolio-Website"
               demoLink="https://rahuljha.tech/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
       <ScrollToTop />

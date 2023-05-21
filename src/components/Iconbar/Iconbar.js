@@ -40,13 +40,13 @@ export const Iconbar2 = () => {
         >
           click here to visit <i className="fab fa-github"></i>
         </a>
-        <a
+        {/* <a
           href="https://leetcode.com/KushagraVarshney0511/"
           className="leetcode2"
           target="_kushagra"
         >
           click here to visit <Icon className="icon3" icon="simple-icons:leetcode" />
-        </a>
+        </a> */}
       </div>
     
   );
