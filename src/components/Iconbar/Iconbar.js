@@ -14,7 +14,7 @@ export const Iconbar2 = () => {
           className="telegram2"
           target="_kushagra"
         >
-          click here to visit <i className="fa-brands fa-twitter fab"></i>
+          click here to visit <Icon className="icon3" icon="simple-icons:telegram" />
         </a>
 
         <a
@@ -22,7 +22,7 @@ export const Iconbar2 = () => {
           className="instagram2"
           target="_kushagra"
         >
-          click here to visit <i className="fab fa-instagram"></i>
+          click here to visit <Icon className="icon3" icon="simple-icons:instagram" />
         </a>
 
         <a
@@ -30,7 +30,7 @@ export const Iconbar2 = () => {
           className="linkedin2"
           target="_kushagra"
         >
-          click here to visit <i className="fab fa-linkedin"></i>
+          click here to visit <Icon className="icon3" icon="simple-icons:linkedin" />
         </a>
 
         <a
@@ -38,15 +38,15 @@ export const Iconbar2 = () => {
           className="github2"
           target="_kushagra"
         >
-          click here to visit <i className="fab fa-github"></i>
+          click here to visit <Icon className="icon3" icon="simple-icons:github" />
         </a>
-        {/* <a
+        <a
           href="https://leetcode.com/KushagraVarshney0511/"
           className="leetcode2"
           target="_kushagra"
         >
           click here to visit <Icon className="icon3" icon="simple-icons:leetcode" />
-        </a> */}
+        </a>
       </div>
     
   );

@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import Lottie from "lottie-react";
-import homeIcon2 from "../../Assets/113805-portfolio-welcome.json";
+import homeIcon2 from "../../Assets/91451-developer-blue.json";
 import About from "../About/About";
 import { Icon } from '@iconify/react';
 import {
