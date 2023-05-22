@@ -6,7 +6,7 @@
   }
   /* section 7 */
   
-  .icon-bar2 a {
+  .icon-bar2 p {
     width: 15rem;
     background: #3b5999;
     color: #fff;
@@ -17,13 +17,15 @@
     padding: 0.5rem;
     transition: all 0.5s linear;
     transform: translateX(-12rem);
+    margin-bottom: 0px;
+    /* padding-bottom: 0px; */
   }
   
-  .icon-bar2 a:hover {
+  .icon-bar2 p:hover {
     transform: translateX(0);
   }
   
-  .icon-bar2 a .fab {
+  .icon-bar2 p .fab {
     padding-left: 1rem;
     font-size: 2rem;
     animation: letszoom 3s linear alternate-reverse infinite;
@@ -69,7 +71,7 @@
     background: #0077b5;
   }
   @media screen and (max-width: 500px) {
-  .icon-bar2 a {
+  .icon-bar2 p {
     width: 11rem;
     background: #3b5999;
     color: #fff;
@@ -81,12 +83,12 @@
     transition: all 0.5s linear;
     transform: translateX(-8rem);
   }
-  .icon-bar2 a .fab {
+  .icon-bar2 p .fab {
     padding-left: 1rem;
     font-size: 1.5rem;
     animation: letszoom 3s linear alternate-reverse infinite;
   }
-  .icon-bar2 a:hover {
+  .icon-bar2 p:hover {
     transform: translateX(-8.7rem);
   }
   
