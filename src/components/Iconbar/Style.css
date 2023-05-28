@@ -72,6 +72,8 @@
   }
   @media screen and (max-width: 500px) {
   .icon-bar2 p {
+    display: none;
+    visibility: hidden;
     width: 11rem;
     background: #3b5999;
     color: #fff;
@@ -84,11 +86,13 @@
     transform: translateX(-8rem);
   }
   .icon-bar2 p .fab {
+    display: none;
     padding-left: 1rem;
     font-size: 1.5rem;
     animation: letszoom 3s linear alternate-reverse infinite;
   }
   .icon-bar2 p:hover {
+    display: none;
     transform: translateX(-8.7rem);
   }
   
