@@ -1,11 +1,13 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
 const ThemeContext = React.createContext();
 // localStorage.setItem("theme", "light");
 
 const ThemeProvider = ({ children }) => {
-  const [themename, setthemename] = useState(localStorage.theme);
+  const storedDarkMode = localStorage.getItem("theme");
+
+  const [themename, setthemename] = useState(storedDarkMode);
   const toggeltheme = () => {
     themename === "light" ? setthemename("dark") : setthemename("light");
   };
