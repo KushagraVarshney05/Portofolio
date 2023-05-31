@@ -17,10 +17,6 @@ const ThemeProvider = ({ children }) => {
     storedDarkMode = lightTheme;
   }
   // localStorage.setItem("theme", );
-
-  console.log("yash varshney");
-  console.log(storedDarkMode);
-  console.log("yash varshney");
   const [themename, setthemename] = useState(storedDarkMode);
   const toggeltheme = () => {
     themename === "light" ? setthemename("dark") : setthemename("light");
@@ -28,8 +24,6 @@ const ThemeProvider = ({ children }) => {
 
   useEffect(() => {
     const root = window.document.documentElement;
-    // root.classList.remove();
-    // root.classList.add(themename);
     console.log("kushgare varshney");
     localStorage.setItem("theme", themename);
   }, [themename, toggeltheme]);
