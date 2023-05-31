@@ -5,8 +5,11 @@
     z-index: 10;
   }
   /* section 7 */
+  .Icon2{
+    text-decoration: none !important;
+  }
   
-  .icon-bar2 p {
+  .icon-bar2 .Icon2 {
     width: 15rem;
     background: #3b5999;
     color: #fff;
@@ -21,11 +24,11 @@
     /* padding-bottom: 0px; */
   }
   
-  .icon-bar2 p:hover {
+  .icon-bar2 .Icon2:hover {
     transform: translateX(0);
   }
   
-  .icon-bar2 p .fab {
+  .icon-bar2 .Icon2 .fab {
     padding-left: 1rem;
     font-size: 2rem;
     animation: letszoom 3s linear alternate-reverse infinite;
@@ -71,7 +74,7 @@
     background: #0077b5;
   }
   @media screen and (max-width: 500px) {
-  .icon-bar2 p {
+  .icon-bar2 .Icon2 {
     display: none;
     visibility: hidden;
     width: 11rem;
@@ -85,13 +88,13 @@
     transition: all 0.5s linear;
     transform: translateX(-8rem);
   }
-  .icon-bar2 p .fab {
+  .icon-bar2 .Icon2 .fab {
     display: none;
     padding-left: 1rem;
     font-size: 1.5rem;
     animation: letszoom 3s linear alternate-reverse infinite;
   }
-  .icon-bar2 p:hover {
+  .icon-bar2 .Icon2:hover {
     display: none;
     transform: translateX(-8.7rem);
   }
