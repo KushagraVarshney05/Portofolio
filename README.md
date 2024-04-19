@@ -3,7 +3,7 @@
   <a href="https://www.kushagravarshney.xyz/" target="_blank">kushagravarshney.xyz</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./src/Assets/Projects/Portfolio.png" />
+<!--   <img alt="Demo" src="./src/Assets/Projects/Portfolio.png" /> -->
 </div>
 
 <br/>
